@@ -1,0 +1,62 @@
+:root {
+	--blue: #e2028c;
+	--yellow: #00fcce;
+}
+
+body {
+	font-family: 'Courier New', monospace;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+}
+.header {
+	width: 100%;
+	text-align: center;
+	padding: 50px 0 30px 0;
+}
+a {
+	color: var(--blue);
+}
+a:hover {
+	color: var(--yellow);
+}
+.footer {
+	text-align: center;
+	margin: 50px;
+}
+.nav {
+	justify-content: center;
+	list-style-type: none;
+	padding: 0;
+}
+.nav li {
+	margin: 0 10px 0 10px;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+::-moz-selection { /* Code for Firefox */
+	color: var(--yellow);
+	background: var(--blue);
+}
+
+::selection {
+	color: var(--yellow);
+	background: var(--blue);
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  padding-left: 1.3em;
+}
+li:before {
+  content: ">";
+  font-family: 'Courier New', monospace;
+  display: inline-block;
+  margin-left: -1.3em;
+  width: 1.3em;
+}
