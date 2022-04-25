@@ -1,6 +1,6 @@
 :root {
-	--blue: #e2028c;
-	--yellow: #00fcce;
+	--blue: #ff00f6;
+	--yellow: #00fffc;
 }
 
 body {
@@ -38,12 +38,10 @@ a:hover {
 }
 
 ::-moz-selection { /* Code for Firefox */
-	color: var(--yellow);
 	background: var(--blue);
 }
 
 ::selection {
-	color: var(--yellow);
 	background: var(--blue);
 }
 ul {
@@ -59,4 +57,9 @@ li:before {
   display: inline-block;
   margin-left: -1.3em;
   width: 1.3em;
+}
+.art {
+	width: 100%;
+	max-width: 350px;
+	margin: 25px 0 30px 0;
 }
