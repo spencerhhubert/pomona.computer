@@ -62,3 +62,10 @@ li:before {
     text-align: center;
     margin: 50px;
 }
+
+@media screen and (max-width: 576px) {
+    iframe {
+        max-width: 100% !important;
+        width: auto !important;
+    }
+}
